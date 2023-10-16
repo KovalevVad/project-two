@@ -1,5 +1,5 @@
 * {
-  font-family: 'Inter', sans-serif;
+  font-family: Poppins
 }
 
 .section-1 {
@@ -40,6 +40,7 @@
   display: flex;
   gap: 53px;
 }
+
 .head-list > a {
   display: block;
   font-size: 18px;
@@ -225,6 +226,7 @@
 
 .main-body {
   display: flex;
+  justify-content: space-between;
 }
 
 .img-main {
@@ -319,7 +321,6 @@
 }
 
 .section-2-head {
-  font-family: Poppins;
   font-size: 45px;
   font-weight: 600;
   line-height: 27px;
@@ -340,7 +341,7 @@
 
   border-radius: 20px;
   background-color: white;
-  box-shadow: 17.77912px 11.80013px 59.00063px 0px rgba(199, 199, 199, 0.60);
+  box-shadow: 17px 11px 59px 0px rgba(199, 199, 199, 0.60);
 }
 
 .NFT-container {
@@ -365,7 +366,6 @@
 }
 
 .block-time p {
-  font-family: Poppins;
   font-size: 14px;
   font-weight: 500;
   color: white;
@@ -392,7 +392,6 @@
 }
 
 .NFT-container-head {
-  font-family: Poppins;
   font-size: 21px;
   font-weight: 600;
   line-height: 30px;
@@ -401,7 +400,6 @@
 }
 
 .NFT-container-bid {
-  font-family: Poppins;
   font-size: 14px;
   font-weight: 400;
   line-height: 21px;
@@ -416,7 +414,6 @@
 }
 
 .NFT-container-price p{
-  font-family: Poppins;
   font-size: 16px;
   font-weight: 500;
   line-height: 25px;
@@ -438,7 +435,6 @@
 }
 
 .NFT-buttom p{
-  font-family: Poppins;
   font-size: 14px;
   font-weight: 600;
   line-height: 21px;
@@ -489,7 +485,6 @@
 }
 
 .recent-viewed-body p {
-  font-family: Poppins;
   font-size: 21px;
   font-style: normal;
   font-weight: 600;
@@ -506,8 +501,7 @@
 
 .recent-viewed-profile-name p {
   color: #141416;
-  font-family: Poppins;
-  font-size: 15.364px;
+  font-size: 15px;
   font-style: normal;
   font-weight: 500;
   line-height: 140%;
@@ -515,8 +509,7 @@
 
 .recent-viewed-profile-name span {
   color: #64748B;
-  font-family: Poppins;
-  font-size: 12.483px;
+  font-size: 12px;
   font-style: normal;
   font-weight: 400;
   line-height: 150%;
@@ -563,8 +556,7 @@
 
 .recent-viewed-profile-1-price p {
   color: #10C352;
-  font-family: Poppins;
-  font-size: 13.443px;
+  font-size: 13px;
   font-style: normal;
   font-weight: 400;
   line-height: 150%;
@@ -578,8 +570,7 @@
 
 .profile-1-price-block span {
   color: #141416;
-  font-family: Poppins;
-  font-size: 15.364px;
+  font-size: 15px;
   font-style: normal;
   font-weight: 600;
   line-height: 140%;
@@ -608,7 +599,6 @@
 }
 
 .section-3-head {
-  font-family: Poppins;
   font-size: 45px;
   font-weight: 600;
   line-height: 45px;
@@ -631,7 +621,6 @@
 
 .profile-table  p {
   color: #141416;
-  font-family: Poppins;
   font-size: 28px;
   font-style: normal;
   font-weight: 500;
@@ -640,7 +629,6 @@
 
 .profile-table  span {
   color: #64748B;
-  font-family: Poppins;
   font-size: 22px;
   font-style: normal;
   font-weight: 400;
@@ -674,7 +662,6 @@ table td {
 }
 
 table th {
-  font-family: Poppins;
   font-size: 22px;
   font-weight: 500;
   line-height: 29px;
@@ -695,7 +682,6 @@ table th {
 
 .eth-size > span {
   color: #141416;
-  font-family: Poppins;
   font-size: 24px;
   font-style: normal;
   font-weight: 600;
@@ -708,7 +694,6 @@ table th {
 
 .persent-size > p {
   color: #10C352;
-  font-family: Poppins;
   font-size: 22px;
   font-style: normal;
   font-weight: 500;
@@ -716,7 +701,6 @@ table th {
 }
 
 .text-size {
-  font-family: Poppins;
   font-size: 18px;
   font-weight: 600;
   line-height: 31px;
@@ -753,7 +737,6 @@ td {
 .block-marketplace-head {
   display: flex;
   justify-content: center;
-  font-family: Poppins;
   font-size: 45px;
   font-weight: 600;
   line-height: 27px;
@@ -764,7 +747,6 @@ td {
 .block-marketplace-head-discover {
   display: flex;
   justify-content: center;
-  font-family: Poppins;
   font-size: 45px;
   font-weight: 600;
   line-height: 27px;
@@ -923,7 +905,6 @@ td {
 }
 
 .explore_all p {
-  font-family: Poppins;
   font-size: 18px;
   font-weight: 500;
   line-height: 40px;
@@ -961,7 +942,6 @@ td {
 }
 
 .section-5-list-head p {
-  font-family: Poppins;
   font-size: 45px;
   font-weight: 600;
   line-height: 54px;
@@ -970,7 +950,6 @@ td {
 }
 
 .section-5-list-head span {
-  font-family: Poppins;
   font-size: 45px;
   font-weight: 700;
   line-height: 54px;
@@ -982,7 +961,6 @@ td {
 }
 
 .section-5-list-body li {
-  font-family: Poppins;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -1014,7 +992,6 @@ td {
 .section-5-button p {
   color: white;
   text-align: center;
-  font-family: Poppins;
   font-size: 15px;
   font-style: normal;
   font-weight: 500;
@@ -1069,7 +1046,7 @@ td {
   z-index: 0;
   margin-left: 30%;
   margin-top: 50px;
-  border-radius: 14.119px;
+  border-radius: 14px;
   box-shadow: 9px 9px 44px 0px rgba(20, 20, 22, 0.10);
 }
 
@@ -1145,20 +1122,18 @@ td {
 
 .section-5-text p {
   color: #141416;
-  font-family: Poppins;
   font-size: 11.393px;
   font-style: normal;
   font-weight: 600;
-  line-height: 18.988px;
+  line-height: 18px;
 }
 
 .section-5-text span {
   color: #949494;
-  font-family: Poppins;
-  font-size: 11.393px;
+  font-size: 11px;
   font-style: normal;
   font-weight: 400;
-  line-height: 18.988px;
+  line-height: 18px;
 }
 
 .section-5-text-one {
@@ -1168,11 +1143,10 @@ td {
 
 .section-5-text-one p {
   color: #949494;
-  font-family: Poppins;
   font-size: 13px;
   font-style: normal;
   font-weight: 500;
-  line-height: 22.785px;
+  line-height: 22px;
 }
 
 .section-5-bloks-container{
@@ -1184,12 +1158,11 @@ td {
 }
 
 .section-5-bloks-container > p {
-  font-family: Poppins;
-  font-size: 18.532px;
+  font-size: 18px;
   font-style: normal;
   font-weight: 600;
   line-height: 135%;
-  letter-spacing: 0.176px;
+  letter-spacing: 0.2px;
 }
 
 .container-profile-1 {
@@ -1235,7 +1208,6 @@ td {
 }
 
 .container-profile-name-1 > p {
-  font-family: Poppins;
   font-size: 14px;
   font-style: normal;
   font-weight: 500;
@@ -1244,7 +1216,6 @@ td {
 
 .container-profile-name-1 > span{
   color: var(--neutrals-4, #777E90);
-  font-family: Poppins;
   font-size: 12px;
   font-style: normal;
   font-weight: 400;
@@ -1252,7 +1223,6 @@ td {
 }
 
 .container-profile-name-2 > p {
-  font-family: Poppins;
   font-size: 14px;
   font-style: normal;
   font-weight: 500;
@@ -1261,7 +1231,6 @@ td {
 
 .container-profile-name-2 > span{
   color: var(--neutrals-4, #777E90);
-  font-family: Poppins;
   font-size: 12px;
   font-style: normal;
   font-weight: 400;
@@ -1269,7 +1238,6 @@ td {
 }
 
 .container-profile-name-3 > p {
-  font-family: Poppins;
   font-size: 14px;
   font-style: normal;
   font-weight: 500;
@@ -1278,7 +1246,6 @@ td {
 
 .container-profile-name-3 > span{
   color: var(--neutrals-4, #777E90);
-  font-family: Poppins;
   font-size: 12px;
   font-style: normal;
   font-weight: 400;
@@ -1286,7 +1253,6 @@ td {
 }
 
 .container-profile-name-4 > p {
-  font-family: Poppins;
   font-size: 14px;
   font-style: normal;
   font-weight: 500;
@@ -1295,7 +1261,6 @@ td {
 
 .container-profile-name-4 > span{
   color: var(--neutrals-4, #777E90);
-  font-family: Poppins;
   font-size: 12px;
   font-style: normal;
   font-weight: 400;
@@ -1404,7 +1369,7 @@ td {
   text-align: center;
   font-style: normal;
   font-weight: 700;
-  line-height: 114.286%;
+  line-height: 114%;
 }
 
 .section-5-block-bottom {
@@ -1422,7 +1387,6 @@ td {
 
 .section-5-button-text > p {
   color: var(--white-01, #FFF);
-  font-family: Poppins;
   font-size: 45px;
   font-style: normal;
   font-weight: 600;
@@ -1433,7 +1397,6 @@ td {
 
 .section-5-button-text span {
   color: #D4D4D4;
-  font-family: Poppins;
   font-size: 20px;
   font-style: normal;
   font-weight: 500;
@@ -1464,7 +1427,6 @@ td {
 
 .section-5-button-one > p {
   color: #141416;
-  font-family: Poppins;
   font-size: 14px;
   font-style: normal;
   font-weight: 600;
@@ -1488,7 +1450,6 @@ td {
 
 .section-5-button-two > p {
   color: rgb(252, 252, 252);
-  font-family: Poppins;
   font-size: 14px;
   font-style: normal;
   font-weight: 600;
@@ -1531,7 +1492,6 @@ td {
 
 .logo-name p {
   color: #FFF;
-  font-family: Poppins;
   font-size: 29px;
   font-style: normal;
   font-weight: 600;
@@ -1637,7 +1597,6 @@ td {
     width: 403px;
   }
   .hero-text h1 {
-    font-family: Poppins;
     font-size: 54px;
     font-weight: 600;
     line-height: 120%; /* 64.006px */
@@ -1689,7 +1648,6 @@ td {
   }
 
   .main-button  p {
-  font-family: Poppins;
   font-size: 12px;
   font-style: normal;
   font-weight: 500;
@@ -1922,7 +1880,7 @@ td {
    }
 
    .profile-table-img-1,
-    .profile-table-img-2 {
+   .profile-table-img-2 {
     width: 60px;
     height: 60px;
    }
@@ -2363,7 +2321,6 @@ td {
 
   .head > p {
     display: block;
-    font-family: Poppins;
     font-size: 21px;
     font-weight: 600;
   }
@@ -2419,7 +2376,6 @@ td {
     display: block;
     color: rgba(32, 31, 31, 1);
     opacity: 60%;
-    font-family: Poppins;
     font-size: 10px;
     font-style: normal;
     font-weight: 600;
@@ -2471,7 +2427,6 @@ td {
     width: 400px;
     height: 295px;
     margin-top: 70px;
-
   }
 
   .main-body {
@@ -2644,7 +2599,6 @@ td {
 
   .column-volume-one > p {
     color: #10C352;
-    font-family: Poppins;
     font-size: 13px;
     font-style: normal;
     font-weight: 400;
@@ -2653,7 +2607,6 @@ td {
 
   .column-volume-two > p {
     color: red;
-    font-family: Poppins;
     font-size: 13px;
     font-style: normal;
     font-weight: 400;

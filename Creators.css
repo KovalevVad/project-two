@@ -52,6 +52,7 @@ body {
 .profile {
   display: block;
   width: auto;
+  max-width: 392px;
   height: 540px;
 
   border-radius: 25px;
