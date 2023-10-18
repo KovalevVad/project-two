@@ -256,7 +256,7 @@
   width: 391px;
   height: 419px;
 
-  background-image: url(./img/section-1/img-1.png);
+  background-image: url(/img/section-1/img-1.png);
   background-position: center;
   background-repeat: no-repeat;
 }
@@ -267,14 +267,14 @@
   right: 0;
   margin-top: 199px;
   z-index: 1;
-  background-image: url(./img/section-1/img-2.png);
+  background-image: url(/img/section-1/img-2.png);
   background-size: cover;
   overflow-x: hidden;
 }
 
 .point {
   right: 0;
-  background-image: url(./img/section-1/point.png);
+  background-image: url(/img/section-1/point.png);
   width: 120px;
   height: 400px;
 }
@@ -522,7 +522,7 @@
 
 .recent-viewed-profile-img-1 {
   display: block;
-  background-image:url(./img/section-2/img-one.svg);
+  background-image:url(/img/section-2/img-one.svg);
   width: 50px;
   height: 50px;
   border-radius: 50%;
@@ -536,7 +536,7 @@
 
 .recent-viewed-profile-img-2 {
   display: block;
-  background-image:url(./img/section-2/img-five.svg);
+  background-image:url(/img/section-2/img-five.svg);
   width: 50px;
   height: 50px;
   border-radius: 50%;
@@ -639,7 +639,7 @@
   width: 70px;
   height: 70px;
   border-radius: 50%;
-  background-image: url(./img/section-2/img-one.svg);
+  background-image: url(/img/section-2/img-one.svg);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -648,7 +648,7 @@
   width: 70px;
   height: 70px;
   border-radius: 50%;
-  background-image: url(./img/section-2/img-five.svg);
+  background-image: url(/img/section-2/img-five.svg);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -965,7 +965,7 @@ td {
   font-style: normal;
   font-weight: 400;
   line-height: 32px;
-  background-image: url(./img/section-5/list-icon.svg);
+  background-image: url(/img/section-5/list-icon.svg);
   background-repeat: no-repeat;
   background-position: 0;
   list-style-type: none;
@@ -1073,7 +1073,7 @@ td {
 
 .section-5-img-little {
   display: block;
-  background-image:url(./img/section-2/img-two.svg);
+  background-image:url(/img/section-2/img-two.svg);
   width: 40px;
   height: 40px;
   border-radius: 50%;
@@ -1100,7 +1100,7 @@ td {
   display: block;
   height:60px;
   width: 60px;
-  background-image: url(./img/section-2/img-two.svg);
+  background-image: url(/img/section-2/img-two.svg);
   background-size: cover;
   border-radius: 15px;
   margin-left: auto;
@@ -1200,7 +1200,7 @@ td {
 
 .container-profile-img-1 {
   display: block;
-  background-image:url(./img/section-2/img-one.svg);
+  background-image:url(/img/section-2/img-one.svg);
   width: 50px;
   height: 50px;
   border-radius: 50%;
@@ -1214,7 +1214,7 @@ td {
 
 .container-profile-img-2 {
   display: block;
-  background-image:url(./img/section-2/img-five.svg);
+  background-image:url(/img/section-2/img-five.svg);
   width: 50px;
   height: 50px;
   border-radius: 50%;
@@ -1228,7 +1228,7 @@ td {
 
 .container-profile-img-3 {
   display: block;
-  background-image:url(./img/section-2/img-two.svg);
+  background-image:url(/img/section-2/img-two.svg);
   width: 50px;
   height: 50px;
   border-radius: 50%;
@@ -1242,7 +1242,7 @@ td {
 
 .container-profile-img-4 {
   display: block;
-  background-image:url(./img/section-2/img-three.svg);
+  background-image:url(/img/section-2/img-three.svg);
   width: 50px;
   height: 50px;
   border-radius: 50%;
@@ -1392,7 +1392,7 @@ td {
   display: block;
   width: 390px;
   height: 264px;
-  background-image: url(./img/section-5/buttom-img.svg);
+  background-image: url(/img/section-5/buttom-img.svg);
   background-repeat: no-repeat;
   margin-top: 25px;
   margin-left: auto;
@@ -1475,7 +1475,7 @@ td {
   gap: 60px;
 }
 
-@media (min-width:376px) and (max-width: 1024px) {
+@media (max-width: 1024px) {
 
   .section-1 {
     height: 80vh;
@@ -2267,7 +2267,7 @@ td {
     display: block;
     width: 31px;
     height: 22px;
-    background-image: url(./img/section-1/menu.svg);
+    background-image: url(/img/section-1/menu.svg);
     background-size: cover;
     margin-left: 140px;
   }
@@ -2379,6 +2379,7 @@ td {
     height: 36px;
     box-shadow: 0px 12px 20px rgba(15, 15, 15, 0.12);
     border-radius: 10px;
+    margin-bottom: 0px;
   }
 
   .block-navigator img {
@@ -2402,6 +2403,7 @@ td {
     width: 200px;
     height: 284px;
     border-radius: 16px;
+    overflow-x: hidden;
   }
 
   .block-time {

@@ -293,6 +293,7 @@ label {
 
   .main {
     align-items: center;
+    width: 100%;
   }
 
   .main__form-1 > input {

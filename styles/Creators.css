@@ -63,7 +63,7 @@ body {
 .background-image {
   width: 100%;
   height: 264px;
-  background-image: url(./img/creators-img/background-img.svg);
+  background-image: url(/img/creators-img/background-img.svg);
   background-repeat: no-repeat;
   border-radius: 25px;
   background-size: contain;
@@ -84,7 +84,7 @@ body {
 .profile-avatar {
   width: 110px;
   height: 110px;
-  background-image: url(./img/creators-img/background-img.svg);
+  background-image: url(/img/creators-img/background-img.svg);
   background-size: cover;
   border-radius: 50%;
   background-repeat: no-repeat;
