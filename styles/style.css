@@ -372,13 +372,14 @@
   white-space: nowrap;
 }
 
-.NFT-container > img{
-  object-fit: cover;
-  max-height: 253px;
+.NFT-container > img {
   display: block;
-  border-radius: 20px;
   width: 100%;
-  overflow: hidden;
+  max-height: 253px;
+
+  border-radius: 20px;
+  overflow-x: hidden;
+  object-fit: cover;
 }
 
 .NFT-container-footer {
@@ -520,32 +521,29 @@
   flex-direction: column;
 }
 
-.recent-viewed-profile-img-1 {
-  display: block;
-  background-image:url(/img/section-2/img-one.svg);
-  width: 50px;
-  height: 50px;
-  border-radius: 50%;
-  background-size: 56px 54px;
-}
-
-.recent-viewed-profile-img-1 img {
-  margin-top: 32px;
-  margin-left: 30px;
-}
-
+.recent-viewed-profile-img-1,
 .recent-viewed-profile-img-2 {
   display: block;
-  background-image:url(/img/section-2/img-five.svg);
   width: 50px;
   height: 50px;
+
   border-radius: 50%;
-  background-size: 49px 67px;
 }
 
+.recent-viewed-profile-img-1 img,
 .recent-viewed-profile-img-2 img {
   margin-top: 32px;
   margin-left: 30px;
+}
+
+.recent-viewed-profile-img-1 {
+  background-image:url(/img/section-2/img-one.svg);
+  background-size: 56px 54px;
+}
+
+.recent-viewed-profile-img-2 {
+  background-image:url(/img/section-2/img-five.svg);
+  background-size: 49px 67px;
 }
 
 .recent-viewed-profile-1-price {
@@ -578,11 +576,12 @@
 
 .section-3 {
   display: flex;
+  width: 100%;
+  height: 100vh;
+
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  width: 100%;
-  height: 100vh;
   background: rgba(249, 249, 249, 1);
 }
 
@@ -635,22 +634,21 @@
   line-height: 150%; /* 34.143px */
 }
 
-.profile-table-img-1 {
-  width: 70px;
-  height: 70px;
-  border-radius: 50%;
-  background-image: url(/img/section-2/img-one.svg);
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
+.profile-table-img-1,
 .profile-table-img-2 {
   width: 70px;
   height: 70px;
   border-radius: 50%;
-  background-image: url(/img/section-2/img-five.svg);
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.profile-table-img-1 {
+  background-image: url(/img/section-2/img-one.svg);
+}
+
+.profile-table-img-2 {
+  background-image: url(/img/section-2/img-five.svg);
 }
 
 table td {
@@ -762,96 +760,36 @@ td {
   gap: 22px;
 }
 
-.marketplace-buttom-1 {
-  display: flex;
-  width: 72px;
-  height: 56px;
-  flex-direction: row;
-  gap: 9px;
+.marketplace-buttom-2 img,
+.marketplace-buttom-3 img,
+.marketplace-buttom-4 img {
+  display: block;
+  width: auto;
+  height: auto;
+  margin-left: 20px;
+}
 
-  align-items: center;
-  justify-content: center;
-  text-decoration: none;
-  background-color: rgb(252, 252, 252);
-  border: 3px solid black;
-  border-radius: 15px;
-  bottom: 0;
+.marketplace-buttom-1 p,
+.marketplace-buttom-2 p,
+.marketplace-buttom-3 p,
+.marketplace-buttom-4 p {
+  font-family: Manrope;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 23px;
+  letter-spacing: 0.2px;
+  text-align: left;
+  color: black;
+  padding: 16px 25px 16px 0px;
 }
 
 .marketplace-buttom-1 p{
-  font-family: Manrope;
-  font-size: 15px;
-  font-weight: 600;
-  line-height: 23px;
-  letter-spacing: 0.2px;
-  text-align: left;
-  color: black;
+  padding: 16px 25px 16px 25px;
 }
 
-.marketplace-buttom-2 img {
-  display: block;
-  width: auto;
-  height: auto;
-  margin-left: 20px;
-}
-
-.marketplace-buttom-2 {
-  display: flex;
-  height: 56px;
-  gap: 9px;
-
-  align-items: center;
-  justify-content: center;
-  text-decoration: none;
-  background-color: rgb(252, 252, 252);
-  border: 3px solid black;
-  border-radius: 15px;
-  bottom: 0;
-}
-
-.marketplace-buttom-2 p{
-  font-family: Manrope;
-  font-size: 15px;
-  font-weight: 600;
-  line-height: 23px;
-  letter-spacing: 0.2px;
-  text-align: left;
-  color: black;
-  padding: 16px 16px 16px 0px;
-}
-
-.marketplace-buttom-3 {
-  display: flex;
-  height: 56px;
-  gap: 9px;
-
-  align-items: center;
-  justify-content: center;
-  text-decoration: none;
-  background-color: rgb(252, 252, 252);
-  border: 3px solid black;
-  border-radius: 15px;
-  color: black;
-  bottom: 0;
-}
-
-.marketplace-buttom-3 p{
-  font-family: Manrope;
-  font-size: 15px;
-  font-weight: 600;
-  line-height: 23px;
-  letter-spacing: 0.2px;
-  text-align: left;
-  padding: 16px 16px 16px 0px;
-}
-
-.marketplace-buttom-3 img {
-  display: block;
-  width: auto;
-  height: auto;
-  margin-left: 20px;
-}
-
+.marketplace-buttom-1,
+.marketplace-buttom-2,
+.marketplace-buttom-3,
 .marketplace-buttom-4 {
   display: flex;
   height: 56px;
@@ -863,25 +801,8 @@ td {
   background-color: rgb(252, 252, 252);
   border: 3px solid black;
   border-radius: 15px;
-  bottom: 0;
-}
-
-.marketplace-buttom-4 p{
-  font-family: Manrope;
-  font-size: 15px;
-  font-weight: 600;
-  line-height: 23px;
-  letter-spacing: 0.2px;
-  text-align: left;
   color: black;
-  padding: 16px 25px 16px 0px;
-}
-
-.marketplace-buttom-4 img {
-  display: block;
-  width: auto;
-  height: auto;
-  margin-left: 20px;
+  bottom: 0;
 }
 
 .marketplace-card {
@@ -1044,10 +965,11 @@ td {
   background-color: rgba(255, 255, 255, 1);
   border-radius: 20px;
   z-index: 0;
-  margin-left: 30%;
-  margin-top: 50px;
   border-radius: 14px;
   box-shadow: 9px 9px 44px 0px rgba(20, 20, 22, 0.10);
+
+  margin-left: 30%;
+  margin-top: 50px;
 }
 
 .section-5-bloks-little {
@@ -1060,6 +982,7 @@ td {
   border-radius: 20px;
   box-shadow: 9px 9px 44px 0px rgba(20, 20, 22, 0.10);
   z-index: 2;
+
   margin-left: 40px;
   padding: 12px;
 }
@@ -1198,9 +1121,11 @@ td {
   line-height: 20px;
 }
 
-.container-profile-img-1 {
+.container-profile-img-1,
+.container-profile-img-2,
+.container-profile-img-3,
+.container-profile-img-4 {
   display: block;
-  background-image:url(/img/section-2/img-one.svg);
   width: 50px;
   height: 50px;
   border-radius: 50%;
@@ -1208,60 +1133,40 @@ td {
   margin-right: 10px;
 }
 
-.container-profile-img-1 img {
-  margin-left: 30px;
+.container-profile-img-1 {
+  background-image:url(/img/section-2/img-one.svg);
 }
 
 .container-profile-img-2 {
-  display: block;
   background-image:url(/img/section-2/img-five.svg);
-  width: 50px;
-  height: 50px;
-  border-radius: 50%;
-  background-size: 49px 67px;
-  margin-right: 10px;
+  background-size: 48px 65px;
 }
 
-.container-profile-img-2 img {
+.container-profile-img-1 img,
+.container-profile-img-2 img,
+.container-profile-img-3 img,
+.container-profile-img-4 img {
   margin-left: 30px;
 }
 
 .container-profile-img-3 {
-  display: block;
-  background-image:url(/img/section-2/img-two.svg);
-  width: 50px;
-  height: 50px;
-  border-radius: 50%;
-  background-size: 56px 54px;
-  margin-right: 10px;
-}
-
-.container-profile-img-3 img {
-  margin-left: 30px;
+  background-image: url(/img/section-2/img-three.svg);
 }
 
 .container-profile-img-4 {
-  display: block;
   background-image:url(/img/section-2/img-three.svg);
-  width: 50px;
-  height: 50px;
-  border-radius: 50%;
-  background-size: 56px 54px;
-  margin-right: 10px;
-}
-
-.container-profile-img-4 img {
-  margin-left: 30px;
 }
 
 .container-profile-button {
   display: flex;
   height: auto;
   width: auto;
+
   justify-content: center;
   align-items: center;
   border-radius: 7px;
   border: 2px solid var(--neutrals-6, #E6E8EC);
+
   margin-left: auto;
   padding: 6px 14px;
 }
@@ -1273,7 +1178,7 @@ td {
   text-align: center;
   font-style: normal;
   font-weight: 700;
-  line-height: 114.286%;
+  line-height: 114%;
 }
 
 .container-button {
@@ -1343,7 +1248,8 @@ td {
   margin-top: 50px;
 }
 
-.section-5-button-one {
+.section-5-button-one,
+.section-5-button-two {
   display: flex;
   width: auto;
   height: auto;
@@ -1356,7 +1262,13 @@ td {
   padding: 19px 25px;
 }
 
-.section-5-button-one > p {
+.section-5-button-two {
+  border: 2px solid rgb(252, 252, 252);
+  background-color: #141416;
+}
+
+.section-5-button-one > p,
+.section-5-button-two > p {
   color: #141416;
   font-size: 14px;
   font-style: normal;
@@ -1365,27 +1277,8 @@ td {
   letter-spacing: 0.14px;
 }
 
-.section-5-button-two {
-  display: flex;
-  width: auto;
-  height: auto;
-
-  align-items: center;
-  justify-content: center;
-  text-decoration: none;
-  background-color:  #141416;
-  border: 2px solid rgb(252, 252, 252);
-  border-radius: 13px;
-  padding: 19px 25px;
-}
-
 .section-5-button-two > p {
   color: rgb(252, 252, 252);
-  font-size: 14px;
-  font-style: normal;
-  font-weight: 600;
-  line-height: 18px;
-  letter-spacing: 0.14px;
 }
 
 .section-5-bottom-img {
@@ -1523,10 +1416,12 @@ td {
     text-transform: uppercase;
     margin-left: 17px;
   }
+
   .hero-text {
     margin-left: 70px;
     width: 403px;
   }
+
   .hero-text h1 {
     font-size: 54px;
     font-weight: 600;
@@ -1727,73 +1622,46 @@ td {
     gap: 15px;
   }
 
-  .recent-viewed-profile-img-1 {
+  .recent-viewed-profile-img-1,
+  .recent-viewed-profile-img-2 {
     width: 35px;
     height: 35px;
   }
 
-  .recent-viewed-profile-img-1 img{
+  .recent-viewed-profile-img-1 img,
+  .recent-viewed-profile-img-2 img {
     width: 15px;
     height: 15px;
     margin-top: 19px;
     margin-left: 23px;
   }
 
+   .recent-viewed-profile-name > span,
    .recent-viewed-profile-name > span {
     font-size: 9px;
    }
 
-   .profile-1-price-block {
+   .profile-1-price-block,
+   .profile-2-price-block {
     align-items: center;
     margin-top: 12px;
    }
 
-   .profile-1-price-block > img {
+   .profile-1-price-block > img,
+   .profile-2-price-block > img {
     width: 15px;
     height: 15px;
    }
 
-   .profile-1-price-block > span {
+   .profile-1-price-block > span,
+   .recent-viewed-profile-name > p,
+   .profile-2-price-block > span {
     font-size: 10px;
    }
 
    .recent-viewed-profile-2-block {
     margin-top: 7px;
   }
-
-  .recent-viewed-profile-img-2 {
-    width: 35px;
-    height: 35px;
-  }
-
-  .recent-viewed-profile-img-2 img{
-    width: 15px;
-    height: 15px;
-    margin-top: 19px;
-    margin-left: 23px;
-  }
-
-  .recent-viewed-profile-name > p {
-    font-size: 10px;
-   }
-
-   .recent-viewed-profile-name > span {
-    font-size: 9px;
-   }
-
-   .profile-2-price-block {
-    align-items: center;
-    margin-top: 12px;
-   }
-
-   .profile-2-price-block > img {
-    width: 15px;
-    height: 15px;
-   }
-
-   .profile-2-price-block > span {
-    font-size: 10px;
-   }
 
    .recent-viewed-profile-1-price > p {
     font-size: 10px;
@@ -1875,59 +1743,28 @@ td {
     margin-top: 45px;
    }
 
-   .marketplace-buttom-1 {
-    width: 51px;
-    height: 39px;
-    border-radius: 10px;
-   }
-
    .marketplace-buttom-1 p {
     font-size: 11px;
    }
 
-   .marketplace-buttom-2 {
-    height: 39px;
-    border-radius: 10px;
-   }
-
-   .marketplace-buttom-2 img {
-    width: 17px;
-    height: 17px;
-    margin-left: 12px;
-   }
-
-   .marketplace-buttom-2 p {
-    font-size: 11px;
-    padding: 12px 12px 12px 0px;
-   }
-
-   .marketplace-buttom-3 {
-    height: 39px;
-    border-radius: 10px;
-   }
-
-   .marketplace-buttom-3 img {
-    width: 17px;
-    height: 17px;
-    margin-left: 12px;
-   }
-
-   .marketplace-buttom-3 p {
-    font-size: 11px;
-    padding: 12px 12px 12px 0px;
-   }
-
+   .marketplace-buttom-1,
+   .marketplace-buttom-2,
+   .marketplace-buttom-3,
    .marketplace-buttom-4 {
     height: 39px;
     border-radius: 10px;
    }
 
+   .marketplace-buttom-2 img,
+   .marketplace-buttom-3 img,
    .marketplace-buttom-4 img {
     width: 17px;
     height: 17px;
     margin-left: 12px;
    }
 
+   .marketplace-buttom-2 p,
+   .marketplace-buttom-3 p,
    .marketplace-buttom-4 p {
     font-size: 11px;
     padding: 12px 12px 12px 0px;
@@ -1990,7 +1827,10 @@ td {
     font-size: 13px;
    }
 
-   .container-profile-img-1 {
+   .container-profile-img-1,
+   .container-profile-img-2,
+   .container-profile-img-3,
+   .container-profile-img-4 {
     width: 35px;
     height: 35px;
    }
@@ -2001,88 +1841,34 @@ td {
     border-radius: 10px;
    }
 
-   .container-profile-img-1 img {
-    width: 15px;
-    height: 15px;
-    margin-left: 22px;
-   }
-
-   .container-profile-img-2 {
-    width: 35px;
-    height: 35px;
-   }
-
-   .container-profile-img-2 img {
-    width: 15px;
-    height: 15px;
-    margin-left: 22px;
-   }
-
-   .container-profile-img-3 {
-    width: 35px;
-    height: 35px;
-   }
-
-   .container-profile-img-3 img {
-    width: 15px;
-    height: 15px;
-    margin-left: 22px;
-   }
-
-   .container-profile-img-4 {
-    width: 35px;
-    height: 35px;
-   }
-
+   .container-profile-img-1 img,
+   .container-profile-img-2 img,
+   .container-profile-img-3 img,
    .container-profile-img-4 img {
     width: 15px;
     height: 15px;
     margin-left: 22px;
    }
 
-   .container-profile-name-1 > p {
-    font-size: 10px;
-    height: 15px;
-   }
-
-   .container-profile-name-1 > span {
-    font-size: 10px;
-   }
-
-   .container-profile-name-2 > p {
-    font-size: 10px;
-    height: 15px;
-   }
-
-   .container-profile-name-2 > span {
-    font-size: 10px;
-   }
-
+   .container-profile-name-1 > p,
+   .container-profile-name-2 > p,
    .container-profile-name-3 > p {
     font-size: 10px;
     height: 15px;
    }
 
-   .container-profile-name-3 > span {
+   .container-profile-name-1 > span,
+   .container-profile-name-2 > span,
+   .container-profile-name-3 > span,
+   .container-profile-button > p,
+   .container-profile-button-un > p {
     font-size: 10px;
    }
 
-   .container-profile-button {
-    padding: 4px 9px;
-    border-radius: 5px;
-   }
-
-   .container-profile-button > p {
-    font-size: 10px;
-   }
-
+   .container-profile-button,
    .container-profile-button-un {
     padding: 4px 9px;
     border-radius: 5px;
-   }
-
-   .container-profile-button-un > p {
-    font-size: 10px;
    }
 
    .section-5-bloks-little {
@@ -2123,10 +1909,7 @@ td {
     font-size: 9px;
    }
 
-   .section-5-text p {
-    font-size: 8px;
-   }
-
+   .section-5-text p,
    .section-5-text span {
     font-size: 8px;
    }
@@ -2225,7 +2008,6 @@ td {
     .section-5 {
       height: 130vh;
     }
-
 }
 
 @media (max-width: 376px) {
@@ -2504,11 +2286,7 @@ td {
     font-size: 12px;
   }
 
-  .profile-table-img-1 {
-    width: 44px;
-    height: 44px;
-  }
-
+  .profile-table-img-1,
   .profile-table-img-2 {
     width: 44px;
     height: 44px;
@@ -2642,6 +2420,7 @@ td {
     flex-shrink: 0;
     border-radius: 6px;
     margin-top: 230px;
+    margin-left: 0px;
   }
 
   .recent-viewed {
@@ -2657,14 +2436,16 @@ td {
     height: 18px;
   }
 
-  .recent-viewed-profile-img-1 img {
+  .recent-viewed-profile-img-1 img,
+  .recent-viewed-profile-img-2 img {
     width: 9px;
     height: 9px;
     margin-top: 9px;
     margin-left: 11px
   }
 
-  .recent-viewed-profile-1-block {
+  .recent-viewed-profile-1-block,
+  .recent-viewed-profile-2-block {
     margin-top: 0px;
   }
 
@@ -2673,7 +2454,9 @@ td {
     height: 7px;
   }
 
-  .profile-1-price-block span {
+  .profile-1-price-block span,
+  .recent-viewed-profile-name > span,
+  .recent-viewed-profile-1-price > p {
     font-size: 7px;
   }
 
@@ -2683,14 +2466,6 @@ td {
     height: 7px;
   }
 
-  .recent-viewed-profile-name > span {
-    font-size: 7px;
-  }
-
-  .recent-viewed-profile-1-price > p {
-    font-size: 7px;
-  }
-
   .profile-1-price-block {
     margin-top: 20px;
   }
@@ -2698,17 +2473,6 @@ td {
   .recent-viewed-profile-img-2 {
     width: 18px;
     height: 18px;
-  }
-
-  .recent-viewed-profile-img-2 img {
-    width: 9px;
-    height: 9px;
-    margin-top: 9px;
-    margin-left: 11px
-  }
-
-  .recent-viewed-profile-2-block {
-    margin-top: 0px;
   }
 
   .recent-viewed-profile-1 {
@@ -2729,47 +2493,17 @@ td {
     font-size: 9px;
   }
 
-  .container-profile-img-1{
+  .container-profile-img-1,
+  .container-profile-img-2,
+  .container-profile-img-3,
+  .container-profile-img-4 {
     width: 23px;
     height: 23px;
   }
 
-  .container-profile-img-2{
-    width: 23px;
-    height: 23px;
-  }
-
-  .container-profile-img-3{
-    width: 23px;
-    height: 23px;
-  }
-
-  .container-profile-img-4{
-    width: 23px;
-    height: 23px;
-  }
-
-  .container-profile-img-1 img {
-    width: 10px;
-    height: 10px;
-    margin-left: 15px;
-    margin-bottom: 5px;
-  }
-
-  .container-profile-img-2 img {
-    width: 10px;
-    height: 10px;
-    margin-left: 15px;
-    margin-bottom: 5px;
-  }
-
-  .container-profile-img-3 img {
-    width: 10px;
-    height: 10px;
-    margin-left: 15px;
-    margin-bottom: 5px;
-  }
-
+  .container-profile-img-1 img,
+  .container-profile-img-2 img,
+  .container-profile-img-3 img,
   .container-profile-img-4 img {
     width: 10px;
     height: 10px;
@@ -2777,55 +2511,31 @@ td {
     margin-bottom: 5px;
   }
 
-  .container-profile-name-1 > p {
+  .container-profile-name-1 > p,
+  .container-profile-name-2 > p {
     font-size: 9px;
     height: 9px;
   }
 
-  .container-profile-name-1 > span {
+  .container-profile-name-1 > span,
+  .container-profile-name-2 > span {
     font-size: 7px;
   }
 
-  .container-profile-name-2 > p {
-    font-size: 10px;
-    height: 9px;
-  }
-
-  .container-profile-name-2 > span {
-    font-size: 8px;
-  }
-
-  .container-profile-button {
-    padding: 3px 6px;
-    border-radius: 6px;
-  }
-
-  .container-profile-button > p {
-    font-size: 9px;
-  }
-
+  .container-profile-button,
   .container-profile-button-un {
     padding: 3px 6px;
     border-radius: 6px;
   }
 
-  .container-profile-button-un > p {
+  .container-profile-button > p,
+  .container-profile-button-un > p  {
     font-size: 9px;
-
   }
 
-  .container-profile-1 {
-    height: 27px;
-  }
-
-  .container-profile-2 {
-    height: 27px;
-  }
-
-  .container-profile-3 {
-    height: 27px;
-  }
-
+  .container-profile-1,
+  .container-profile-2,
+  .container-profile-3,
   .container-profile-4 {
     height: 27px;
   }
@@ -2837,22 +2547,22 @@ td {
   }
 
   .section-5-bloks-little {
-    width: 145px;
-    height: 30px;
+    width: 150px;
+    height: 40px;
     border-radius: 6px;
     padding: 6px;
     margin-top: 35px;
-    margin-left: 20px;
+    margin-left: 0px;
   }
 
-  .section-5-text-one p {
-    font-size: 7px;
-    white-space: nowrap;
-    height: 11px;
+  .section-5-text-one {
+    margin-top: 0px;
   }
 
+  .section-5-text-one p,
   .section-5-text > p {
     font-size: 7px;
+    white-space: nowrap;
     height: 11px;
   }
 
@@ -2879,6 +2589,8 @@ td {
       width: 30px;
       height: 30px;
       border-radius: 6px;
+      margin-right: 0px;
+      margin-left: 5px;
     }
 
     .section-5-button {
@@ -2913,21 +2625,13 @@ td {
       margin-top: 25px;
     }
 
-    .section-5-button-one {
-      padding: 9px 12px;
-      border-radius: 6px;
-    }
-
-    .section-5-button-one > p {
-      font-size: 14px;
-      height: 14px;
-    }
-
+    .section-5-button-one,
     .section-5-button-two {
       padding: 9px 12px;
       border-radius: 6px;
     }
 
+    .section-5-button-one > p,
     .section-5-button-two > p {
       font-size: 14px;
       height: 14px;
@@ -3009,12 +2713,3 @@ td {
       height: 16px;
     }
   }
-
-
-
-
-
-
-
-
-

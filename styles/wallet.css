@@ -86,7 +86,7 @@ h1 {
 }
 
 .wallet__footer > p {
-  font-weight: 18px;
+  font-size: 18px;
   color: white;
   font-weight: 600;
 }
@@ -130,7 +130,7 @@ h2 {
   margin-top: 50px;
 }
 
-@media (min-width:376px) and (max-width: 1024px) {
+@media (max-width: 1024px) {
 
   .content2 {
     width: 45%;
@@ -150,7 +150,6 @@ h2 {
     width: 270px;
     font-size: 12px;
   }
-
 }
 
 @media (max-width: 376px) {
@@ -189,5 +188,4 @@ h2 {
     width: 308px;
     height: 60px;
   }
-
 }

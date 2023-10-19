@@ -3,7 +3,6 @@
   background-color: (249, 249, 249, 1);
 }
 
-
 h1 {
   font-size: 45px;
   font-weight: 600;
@@ -30,21 +29,13 @@ label {
   font-weight: 500;
 }
 
-.main__form-1 > input {
+.main__form-1 > input,
+.main__form-2 > input,
+.main__form-4 > input {
   display: block;
   width: 700px;
 
   padding: 16px 19px;
-  border-radius: 12px;
-  background: #EFEFEF;
-  border: 0px;
-}
-
-.main__form-2 > input {
-  display: block;
-  width: 700px;
-
-  padding: 16px 19px 80px;
   border-radius: 12px;
   background: #EFEFEF;
   border: 0px;
@@ -55,29 +46,11 @@ label {
   gap:35px;
 }
 
-.main__form-3_1 > input {
-  display: block;
-
-  padding: 25px 0px 25px 20px;
-  border-radius: 12px;
-  background: #EFEFEF;
-  border: 0px;
-}
-
+.main__form-3_1 > input,
 .main__form-3_2 > input {
   display: block;
 
-  padding: 25px 21px;
-  border-radius: 12px;
-  background: #EFEFEF;
-  border: 0px;
-}
-
-.main__form-4 > input {
-  display: block;
-  width: 700px;
-
-  padding: 16px 19px;
+  padding: 25px 0px 25px 20px;
   border-radius: 12px;
   background: #EFEFEF;
   border: 0px;
@@ -215,7 +188,7 @@ label {
   font-weight: 500;
 }
 
-@media (min-width:376px) and (max-width: 1024px) {
+@media (max-width: 1024px) {
 
   .content {
     margin-left: 70px;
@@ -232,10 +205,7 @@ label {
     font-size: 14px;
   }
 
-  .main__form-1 > input {
-    width: 500px;
-  }
-
+  .main__form-1 > input,
   .main__form-2 > input {
     width: 500px;
   }
@@ -265,9 +235,6 @@ label {
     width: 330px;
     height: 290px;
   }
-
-
-
 }
 
 @media (max-width: 376px) {
@@ -296,23 +263,14 @@ label {
     width: 100%;
   }
 
-  .main__form-1 > input {
-    width: 300px;
-  }
-
+  .main__form-1 > input,
   .main__form-2 > input {
     width: 300px;
   }
 
-  .main__form-3_1 > input {
-    width: 90px;
-    height: 50px;
-    border-radius: 8px;
-    padding: 0px 0px 0px 5px;
-  }
-
+  .main__form-3_1 > input,
   .main__form-3_2 > input {
-    width: 90px;
+    width: 110px;
     height: 50px;
     border-radius: 8px;
     padding: 0px 0px 0px 5px;
@@ -323,16 +281,11 @@ label {
     padding: 15px 15px;
   }
 
-  .main__form-5_1 > input {
-    width: 180px;
-    height: 50px;
-    padding: 0px 0px 0px 5px;
-  }
-
+  .main__form-5_1 > input,
   .main__form-5_2 > input {
-    width: 110px;
+    width: 140px;
     height: 50px;
-    padding: 0px 0px 0px 5px;
+    padding: 0px 0px 0px 10px;
   }
 
   .switch > input {
@@ -357,10 +310,7 @@ label {
     gap: 182px;
   }
 
-  .main__form-6__text > p {
-    font-size: 8px ;
-  }
-
+  .main__form-6__text > p,
   .main__form-7__text > p {
     font-size: 8px ;
   }
@@ -371,7 +321,7 @@ label {
 
   .main__button > p {
     width: 54px;
-  };
+  }
 }
 
 
